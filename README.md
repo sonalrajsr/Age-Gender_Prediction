@@ -23,7 +23,7 @@ git clone https://github.com/your_username/image-gender-age-prediction.git
 cd image-gender-age-prediction
 
 ```
-- Make a folder directory of the model. And copy the trained model in it.
+- Make a folder directory for storing model with name 'model'. And copy the trained model in it.
 - My trained model link or You can train your model from the collab File.
 ```bash
 https://drive.google.com/file/d/11AmGIaK-rGP3AgI5mbtFhAUOqZuaYfXO/view?usp=sharing
