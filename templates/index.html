@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload an Image for Gender and Age Prediction</h1>
+        <p>This application uses a machine learning model to predict the gender and approximate age from an uploaded image.</p>
+        <form action="{{ url_for('upload_file') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*">
+            <p class="warning">Please upload images with dimensions close to 200 x 200 pixels for accurate predictions.</p>
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>
