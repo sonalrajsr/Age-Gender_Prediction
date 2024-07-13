@@ -54,6 +54,6 @@ https://youtu.be/M3UYmkB8RLI
 ```
 [![Watch the video](https://img.youtube.com/vi/M3UYmkB8RLI/maxresdefault.jpg)](https://www.youtube.com/watch?v=M3UYmkB8RLI)
 
-## Screenshots
+## Model
 
 ![App Screenshot](model.png)
