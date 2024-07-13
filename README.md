@@ -9,16 +9,24 @@ This project uses a machine learning model to predict the gender and approximate
 - Predicts gender (Male/Female) and approximate age from uploaded images.
 - Supports images close to 200x200 pixels for accurate predictions.
 - Web interface built with Flask for easy interaction.
-
+## Dataset
+```bash
+https://www.kaggle.com/datasets/jangedoo/utkface-new
+```
 
 ## Installation
 
-Install my-project
+- Install my-project
 
 ```bash
 git clone https://github.com/your_username/image-gender-age-prediction.git
 cd image-gender-age-prediction
 
+```
+- Make a folder directory of the model. And copy the trained model in it.
+- My trained model link or You can train your model from the collab File.
+```bash
+https://drive.google.com/file/d/11AmGIaK-rGP3AgI5mbtFhAUOqZuaYfXO/view?usp=sharing
 ```
     
 ## Environment Setup
